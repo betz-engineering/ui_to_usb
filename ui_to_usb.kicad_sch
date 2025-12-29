@@ -6152,6 +6152,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "a37ac0b6-a730-41df-83ef-3031bc3daf2b")
 		)
@@ -6563,6 +6572,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 128.27 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e1e66447-1971-4035-be53-9e46e06d061d")
 		)
@@ -6634,6 +6652,15 @@
 		)
 		(property "JLCPN|" ""
 			(at 118.11 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 118.11 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6784,6 +6811,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb61477e-74cc-456a-a407-e95d758e78f7")
 		)
@@ -6844,6 +6880,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 62.23 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 62.23 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,6 +7153,15 @@
 			)
 		)
 		(property "Description" "BLM18AG601SN1D"
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 154.94 60.96 0)
 			(effects
 				(font
@@ -7381,6 +7435,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 154.94 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "23"
 			(uuid "e19d36d9-c634-4f2f-a9d3-1725b9557665")
 		)
@@ -7597,6 +7660,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 57.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "364f150e-6118-42eb-ad6c-2e59384439fb")
 		)
@@ -7723,6 +7795,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 62.23 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7865,6 +7946,15 @@
 			)
 		)
 		(property "JLCPN|" ""
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 175.26 62.23 0)
 			(effects
 				(font
@@ -8203,6 +8293,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 276.86 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "ui_to_usb"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
@@ -8257,6 +8356,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 245.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 245.11 93.98 0)
 			(effects
 				(font
@@ -8439,6 +8547,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 193.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4bae2cd1-0422-4a66-bca8-84d5628fac5c")
 		)
@@ -8509,6 +8626,15 @@
 			)
 		)
 		(property "JLCPN|" ""
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 139.7 77.47 0)
 			(effects
 				(font
@@ -8593,6 +8719,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 198.12 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b7df6166-4b18-417c-96f4-c581cb55a0b3")
 		)
@@ -8653,6 +8788,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 128.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 128.27 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8785,6 +8929,15 @@
 		)
 		(property "Description" "BLM18AG601SN1D"
 			(at 62.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 62.23 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8983,6 +9136,15 @@
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 127 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 127 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9196,6 +9358,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c0fa9e16-9e00-4c83-b465-41d2c478d793")
 		)
@@ -9330,6 +9501,15 @@
 		)
 		(property "JLCPN|" ""
 			(at 198.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 198.12 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,7 +9687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+		(property "Footprint" "footprints:LED_1206_3216Metric_ReverseMount_Hole2.0x1.6mm"
 			(at 190.5 146.05 0)
 			(effects
 				(font
@@ -9516,7 +9696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C3646937.html"
 			(at 190.5 146.05 0)
 			(effects
 				(font
@@ -9526,6 +9706,15 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 120° 20mA 3.4V 515nm~535nm 525nm 70mW 900mcd Emerald Green Reverse Mount 1206 LED Indication - Discrete ROHS"
+			(at 190.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 190.5 146.05 0)
 			(effects
 				(font
@@ -9662,6 +9851,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 266.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 266.7 184.15 0)
 			(effects
 				(font
@@ -10123,6 +10321,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 97.79 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "50574d73-8617-407c-8283-a04d3e304d46")
 		)
@@ -10182,6 +10389,15 @@
 			)
 		)
 		(property "Description" "Low Capacitance TVS Diode Array, 2 Channels, SOT-23-6"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 72.39 58.42 0)
 			(effects
 				(font
@@ -10401,6 +10617,15 @@
 			)
 		)
 		(property "JLCPN|" ""
+			(at 40.64 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 40.64 57.15 0)
 			(effects
 				(font
@@ -10795,6 +11020,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 86.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5bdb09fd-b2a1-43bd-a10b-dec97f55d759")
 		)
@@ -10873,6 +11107,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02504b39-0db2-4248-9827-4ad77817ac3f")
 		)
@@ -10913,7 +11156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+		(property "Footprint" "footprints:LED_1206_3216Metric_ReverseMount_Hole2.0x1.6mm"
 			(at 190.5 132.08 0)
 			(effects
 				(font
@@ -10922,7 +11165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C3646937.html"
 			(at 190.5 132.08 0)
 			(effects
 				(font
@@ -10932,6 +11175,15 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 120° 20mA 3.4V 515nm~535nm 525nm 70mW 900mcd Emerald Green Reverse Mount 1206 LED Indication - Discrete ROHS"
+			(at 190.5 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 190.5 132.08 0)
 			(effects
 				(font
@@ -11007,6 +11259,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 62.23 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8de26cf4-44e6-494e-94ae-98a4647165c4")
 		)
@@ -11067,6 +11328,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 97.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 97.79 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11144,6 +11414,15 @@
 			)
 		)
 		(property "JLCPN|" ""
+			(at 93.98 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 93.98 38.1 0)
 			(effects
 				(font
@@ -11493,6 +11772,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 128.27 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "457a66d3-06f3-47d4-b856-45f394b2a2f8")
 		)
@@ -11630,6 +11918,15 @@
 		)
 		(property "JLCPN|" ""
 			(at 118.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 118.11 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12039,6 +12336,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 115.57 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c57b72f3-dc31-4750-b4ce-90e5cfbc6db0")
 		)
@@ -12369,6 +12675,15 @@
 			)
 		)
 		(property "JLCPN|" ""
+			(at 246.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 246.38 107.95 0)
 			(effects
 				(font
