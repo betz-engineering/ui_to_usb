@@ -163,8 +163,7 @@
 	(net 42 "unconnected-(U1-ACBUS1-Pad25)")
 	(net 43 "/D_P")
 	(net 44 "unconnected-(U2-NC-Pad7)")
-	(net 45 "unconnected-(U2-NC-Pad6)")
-	(net 46 "unconnected-(U1-ACBUS8-Pad32)")
+	(net 45 "unconnected-(U1-ACBUS8-Pad32)")
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "07973f0d-7e4f-4133-bb8b-40f4dd0da115")
@@ -724,7 +723,7 @@
 				)
 			)
 		)
-		(property "Description" "BLM18AG601SN1D"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -742,6 +741,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e8734045-21c4-4353-a0ac-9f3f854c63b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C19330"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4248bff3-95e7-49fb-a2b7-4e9537464137")
 			(effects
 				(font
 					(size 1 1)
@@ -855,7 +867,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "1k5"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "536d64c0-5420-459b-b211-7e5cd30461f9")
@@ -1212,7 +1224,7 @@
 				)
 			)
 		)
-		(property "Description" "BLM18AG601SN1D"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1230,6 +1242,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1c1dfcaa-c432-4740-8c7e-915002c70998")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C19330"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "664763b0-723a-4212-a76b-d2dae7764efa")
 			(effects
 				(font
 					(size 1 1)
@@ -1343,7 +1368,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "1k5"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "72ffc7e9-dc8b-4436-8a8d-da83738a4753")
@@ -3956,7 +3981,7 @@
 			(size 1.475 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 46 "unconnected-(U1-ACBUS8-Pad32)")
+			(net 45 "unconnected-(U1-ACBUS8-Pad32)")
 			(pinfunction "ACBUS8")
 			(pintype "bidirectional+no_connect")
 			(uuid "b6bcf975-5c31-40b1-8df2-ded2378db35d")
@@ -4341,7 +4366,7 @@
 				)
 			)
 		)
-		(property "Description" "BLM18AG601SN1D"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4359,6 +4384,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aea449b5-57ba-4713-8772-145ee64627c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C19330"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95edf265-267e-429f-86cf-3cdc2c15d45c")
 			(effects
 				(font
 					(size 1 1)
@@ -4639,7 +4677,7 @@
 				)
 			)
 		)
-		(property "Value" "93LCxxB"
+		(property "Value" "93LC56C"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "ce479db2-8a86-460b-8e1e-41f69f793c65")
@@ -4662,7 +4700,7 @@
 				)
 			)
 		)
-		(property "Description" "Serial EEPROM, 93 Series, 2.5V, DIP-8/SOIC-8"
+		(property "Description" "Serial EEPROM, 93 Series, with ORG Pin, 2.5V, DIP-8/SOIC-8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4688,7 +4726,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SOIC*3.9x4.9mm*")
-		(path "/0339ffa0-c354-493f-ac90-2d5fb6ee717f")
+		(path "/9741bee6-1715-470e-b3e3-38f8833067cb")
 		(sheetname "/")
 		(sheetfile "ui_to_usb.kicad_sch")
 		(attr smd)
@@ -4962,9 +5000,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 45 "unconnected-(U2-NC-Pad6)")
-			(pinfunction "NC")
-			(pintype "no_connect")
+			(net 3 "+3.3V")
+			(pinfunction "ORG")
+			(pintype "input")
 			(uuid "7df4a152-5fb8-495c-a467-10a03d598d90")
 		)
 		(pad "7" smd roundrect
@@ -5729,7 +5767,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5k1"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b108f3e4-6aa7-485e-b77e-e8bbae58501e")
@@ -5883,7 +5921,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5k1"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "9aad7957-1fee-4bd0-80c4-42cd5db67a82")
@@ -7721,6 +7759,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C9002"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "153941d2-c155-4ee6-9bc4-959a69477c4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Crystal*")
 		(path "/74df85d0-1d6a-47da-a1e9-24bf08a810c2")
 		(sheetname "/")
@@ -8027,7 +8078,7 @@
 				)
 			)
 		)
-		(property "Description" "BLM18AG601SN1D"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8045,6 +8096,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "db9333fa-eb4c-4f3b-8c19-af622fbec1f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C19330"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01bd1953-2a06-4363-9580-7f0a19e5b177")
 			(effects
 				(font
 					(size 1 1)
@@ -41305,6 +41369,14 @@
 		(uuid "f17e51f3-07fa-4086-9a55-0503639be37c")
 	)
 	(segment
+		(start 103.4292 89.6008)
+		(end 103.4292 91.6988)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "032845ec-f7b8-483a-af07-a608afe57b26")
+	)
+	(segment
 		(start 99.5427 80.5248)
 		(end 99.7927 80.5248)
 		(width 0.25)
@@ -41417,12 +41489,28 @@
 		(uuid "54e4a96b-bcb4-48cb-8e2a-24dd32d4f729")
 	)
 	(segment
+		(start 104.7302 89.3698)
+		(end 103.6602 89.3698)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "588d800b-ff48-4793-919c-449e03aeded6")
+	)
+	(segment
 		(start 89.5052 71.0248)
 		(end 89.5052 72.2498)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 3)
 		(uuid "5a4edae7-6ae8-4cf0-9234-14cf142775b4")
+	)
+	(segment
+		(start 103.6602 89.3698)
+		(end 103.4292 89.6008)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "5f407fa5-3b7d-4655-8865-2f181fd13f35")
 	)
 	(segment
 		(start 90.2552 85.5248)
@@ -41511,6 +41599,14 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "aba4cce6-7456-4c21-8d6e-aa8c55942935")
+	)
+	(segment
+		(start 103.4292 91.6988)
+		(end 103.6402 91.9098)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "b16b4cf8-36d9-4cc2-acfc-0e364202d0af")
 	)
 	(segment
 		(start 90.2552 83.1873)
@@ -41639,6 +41735,14 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "e4e9d680-3ba4-4095-a373-5508289f82b1")
+	)
+	(segment
+		(start 103.6402 91.9098)
+		(end 104.7302 91.9098)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "e76f1672-3e6e-4aa4-9300-79a30232f191")
 	)
 	(segment
 		(start 89.5052 72.2498)

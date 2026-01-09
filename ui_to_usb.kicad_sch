@@ -3152,7 +3152,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_EEPROM:93LCxxB"
+		(symbol "Memory_EEPROM:93LCxxC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3164,7 +3164,7 @@
 					)
 				)
 			)
-			(property "Value" "93LCxxB"
+			(property "Value" "93LCxxC"
 				(at 2.54 -6.35 0)
 				(effects
 					(font
@@ -3191,7 +3191,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Serial EEPROM, 93 Series, 2.5V, DIP-8/SOIC-8"
+			(property "Description" "Serial EEPROM, 93 Series, with ORG Pin, 2.5V, DIP-8/SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3218,7 +3218,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "93LCxxB_1_1"
+			(symbol "93LCxxC_1_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -3248,11 +3248,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -7.62 0 0)
+				(pin input line
+					(at -10.16 0 0)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "ORG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4338,6 +4337,17 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "16 bit\nmode"
+		(exclude_from_sim no)
+		(at 73.914 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a54f9be-bed9-4453-afa3-9edf0495caf1")
 	)
 	(junction
 		(at 67.31 35.56)
@@ -6098,103 +6108,6 @@
 		(uuid "ffc585ac-1395-4226-88d0-85284072f977")
 	)
 	(symbol
-		(lib_id "Memory_EEPROM:93LCxxB")
-		(at 82.55 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0339ffa0-c354-493f-ac90-2d5fb6ee717f")
-		(property "Reference" "U2"
-			(at 84.6933 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "93LC56B"
-			(at 84.6933 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 82.55 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf"
-			(at 82.55 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Serial EEPROM, 93 Series, 2.5V, DIP-8/SOIC-8"
-			(at 82.55 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 82.55 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "a37ac0b6-a730-41df-83ef-3031bc3daf2b")
-		)
-		(pin "7"
-			(uuid "f6548eb9-530c-4f96-9576-b7e4c2d2442d")
-		)
-		(pin "4"
-			(uuid "0e54f633-f700-48cf-bc8e-a75ee2d2f960")
-		)
-		(pin "6"
-			(uuid "d870e168-a156-455f-8b17-8bbe60c48f54")
-		)
-		(pin "5"
-			(uuid "1aa503fa-f2fd-45b2-84b3-f0a6f09427a9")
-		)
-		(pin "2"
-			(uuid "62b5e07d-858e-4c01-8853-9aecc6e03de0")
-		)
-		(pin "3"
-			(uuid "d1288624-a15d-4e99-8434-5d81f17e5a79")
-		)
-		(pin "1"
-			(uuid "753a8bc3-3ce5-4363-adf6-2cc74493e952")
-		)
-		(instances
-			(project ""
-				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 127 88.9 90)
 		(unit 1)
@@ -7152,7 +7065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BLM18AG601SN1D"
+		(property "Description" ""
 			(at 154.94 60.96 0)
 			(effects
 				(font
@@ -7161,7 +7074,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "JLCPCB Part #" "C19330"
 			(at 154.94 60.96 0)
 			(effects
 				(font
@@ -7408,7 +7321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_8x8mm_P0.5mm_EP6.2x6.2mm"
 			(at 154.94 116.84 0)
 			(effects
 				(font
@@ -8927,7 +8840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BLM18AG601SN1D"
+		(property "Description" ""
 			(at 62.23 41.91 0)
 			(effects
 				(font
@@ -8936,7 +8849,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "JLCPCB Part #" "C19330"
 			(at 62.23 41.91 90)
 			(effects
 				(font
@@ -9143,7 +9056,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "JLCPCB Part #" "C9002"
 			(at 127 134.62 90)
 			(effects
 				(font
@@ -9349,7 +9262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BLM18AG601SN1D"
+		(property "Description" ""
 			(at 143.51 60.96 0)
 			(effects
 				(font
@@ -9358,7 +9271,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "JLCPCB Part #" "C19330"
 			(at 143.51 60.96 0)
 			(effects
 				(font
@@ -9739,6 +9652,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Memory_EEPROM:93LCxxC")
+		(at 82.55 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9741bee6-1715-470e-b3e3-38f8833067cb")
+		(property "Reference" "U2"
+			(at 88.138 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "93LC56C"
+			(at 88.138 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Serial EEPROM, 93 Series, with ORG Pin, 2.5V, DIP-8/SOIC-8"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d81619b-d0e8-432a-90fa-b195062f3b55")
+		)
+		(pin "7"
+			(uuid "bff5ba51-ff2e-4987-947f-dd2e511438ed")
+		)
+		(pin "3"
+			(uuid "cf06a650-a2f6-49b1-92a0-d87c06b2c488")
+		)
+		(pin "5"
+			(uuid "41015213-9ee1-47d4-bca4-cf7eaf1d0095")
+		)
+		(pin "2"
+			(uuid "d299baf9-f455-442c-a920-358aa88a001a")
+		)
+		(pin "8"
+			(uuid "b0e249a0-a0de-43b7-88b4-ce27d7f6c078")
+		)
+		(pin "6"
+			(uuid "ac3fb36d-43a4-4351-97bc-daaacfed4eae")
+		)
+		(pin "4"
+			(uuid "dc94e899-d0ba-4425-b87b-fc60fc8cb45d")
+		)
+		(instances
+			(project ""
+				(path "/61164785-2abe-4800-8948-e7ba22968736"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 114.3 129.54 270)
 		(unit 1)
@@ -9937,6 +9937,71 @@
 			(project "ui_to_usb"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 72.39 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99da822f-6492-4d93-82f2-3c1cd246d662")
+		(property "Reference" "#PWR051"
+			(at 76.2 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 66.548 124.206 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 72.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eb12922-e98d-49f2-847a-5d2094e5f44d")
+		)
+		(instances
+			(project "ui_to_usb"
+				(path "/61164785-2abe-4800-8948-e7ba22968736"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -11250,7 +11315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BLM18AG601SN1D"
+		(property "Description" ""
 			(at 62.23 35.56 0)
 			(effects
 				(font
@@ -11259,7 +11324,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "JLCPCB Part #" "C19330"
 			(at 62.23 35.56 90)
 			(effects
 				(font
