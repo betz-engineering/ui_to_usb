@@ -6116,7 +6116,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "93LCxxB"
+		(property "Value" "93LC56B"
 			(at 84.6933 116.84 0)
 			(effects
 				(font
@@ -6852,7 +6852,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5k1"
 			(at 62.23 49.53 90)
 			(effects
 				(font
@@ -7767,7 +7767,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5k1"
 			(at 62.23 46.99 90)
 			(effects
 				(font
@@ -8675,7 +8675,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "1k5"
 			(at 198.12 132.08 90)
 			(effects
 				(font
@@ -9464,7 +9464,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "1k5"
 			(at 198.12 146.05 90)
 			(effects
 				(font
