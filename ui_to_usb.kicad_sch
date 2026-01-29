@@ -4351,6 +4351,17 @@
 		)
 		(uuid 7e312c8c-e99a-4c19-aea2-b89f0b804829)
 	)
+	(text "ADD Buttons\n  * RESET\n  * BOOTLOAD"
+		(exclude_from_sim no)
+		(at 134.874 164.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1aac7bfe-fd72-43c2-88ec-d88546894b0f")
+	)
 	(text "3.3 V LDO"
 		(exclude_from_sim no)
 		(at 169.926 54.356 0)
@@ -8563,7 +8574,7 @@
 				)
 			)
 		)
-		(property "Value" "12M"
+		(property "Value" "8M"
 			(at 110.49 88.9 90)
 			(effects
 				(font
@@ -8580,7 +8591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322512MSB4SI/C9002"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/2777871-X32258MSB4SI/C2682774"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -8598,7 +8609,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C9002"
+		(property "JLCPCB Part #" "C2682774"
 			(at 110.49 88.9 90)
 			(effects
 				(font
