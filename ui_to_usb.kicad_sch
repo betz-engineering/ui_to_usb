@@ -4285,6 +4285,50 @@
 		)
 		(uuid 7e312c8c-e99a-4c19-aea2-b89f0b804829)
 	)
+	(text "SPI1_MISO"
+		(exclude_from_sim no)
+		(at 123.698 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e814872-a1e3-4375-949a-716ecde36b1e")
+	)
+	(text "SPI1_SCK"
+		(exclude_from_sim no)
+		(at 123.698 113.284 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c691f70-5411-45d4-8c7d-91a1ec83f2d9")
+	)
+	(text "SPI1_MOSI"
+		(exclude_from_sim no)
+		(at 123.698 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9de7081b-82dd-4da0-be40-c4d64444c3ce")
+	)
+	(text "SPI1_NSS"
+		(exclude_from_sim no)
+		(at 123.698 110.744 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7574e03-ea0d-4abd-a2ff-a1a7172fbddd")
+	)
 	(text "3.3 V LDO"
 		(exclude_from_sim no)
 		(at 169.926 54.356 0)
@@ -7889,21 +7933,21 @@
 		(dnp no)
 		(uuid "62ca0ffc-27f2-49e1-a272-963403901a45")
 		(property "Reference" "U5"
-			(at 138.684 107.188 0)
+			(at 162.306 135.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "CH32V203KxT6"
-			(at 132.842 110.236 0)
+		(property "Value" "CH32V203K8T6"
+			(at 162.306 138.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-32_7x7mm_P0.8mm"
