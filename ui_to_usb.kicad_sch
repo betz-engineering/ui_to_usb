@@ -3487,7 +3487,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
+		(symbol "SW_Push_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3498,8 +3498,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+			(property "Reference" "SW1"
+				(at 1.27 2.032 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3507,15 +3507,16 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Value" "BOOT0"
+				(at -1.27 2.032 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "footprints:TS24CA"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -3551,7 +3552,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_0_1"
+			(symbol "SW_Push_1_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -3627,6 +3628,26 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_1_1_1"
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4794,6 +4815,30 @@
 		)
 		(uuid "73a5e8b1-daba-47e6-8938-3c3de2e12c5a")
 	)
+	(text "RESET"
+		(exclude_from_sim no)
+		(at 56.134 188.214 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "895857f8-f9ca-47e7-914e-81e77a0eab46")
+	)
+	(text "BOOT0"
+		(exclude_from_sim no)
+		(at 29.972 187.96 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "970e3efe-5d2c-4c24-a690-b894fec9c1c1")
+	)
 	(text "SPI1_MOSI"
 		(exclude_from_sim no)
 		(at 123.698 118.364 0)
@@ -4860,7 +4905,7 @@
 		(uuid "1aee63c1-6526-4faf-9a3b-f1dc2497e5fa")
 	)
 	(junction
-		(at 54.61 173.99)
+		(at 30.48 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "553485a0-b33b-4f4a-a183-11ef0fcdff74")
@@ -4890,12 +4935,6 @@
 		(uuid "73e03788-ac15-4d17-b88d-8415afc470ee")
 	)
 	(junction
-		(at 29.21 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a0d223c-828a-4e96-af93-b6efe259535c")
-	)
-	(junction
 		(at 139.7 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4914,7 +4953,7 @@
 		(uuid "b50f83ff-6d5f-4b73-8623-7ca0a5383762")
 	)
 	(junction
-		(at 40.64 171.45)
+		(at 62.23 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd5a854e-e678-42f6-b9bd-e33aecc5dacd")
@@ -4942,6 +4981,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1e3e8ee-3f2e-45db-8609-5a1e01812dcd")
+	)
+	(junction
+		(at 50.8 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdf3180e-a935-4da2-8357-a9491d4cb0b6")
 	)
 	(no_connect
 		(at 115.57 123.19)
@@ -5001,7 +5046,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 171.45) (xy 40.64 171.45)
+			(xy 50.8 167.64) (xy 62.23 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5051,7 +5096,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 165.1) (xy 40.64 171.45)
+			(xy 62.23 161.29) (xy 62.23 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5081,7 +5126,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 173.99) (xy 59.69 173.99)
+			(xy 30.48 170.18) (xy 35.56 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5551,7 +5596,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 165.1) (xy 59.69 173.99)
+			(xy 35.56 161.29) (xy 35.56 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5581,7 +5626,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 171.45) (xy 40.64 173.99)
+			(xy 62.23 167.64) (xy 62.23 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6646,7 +6691,7 @@
 		(uuid "bd220971-2ca5-4078-8bf9-4cf865f45148")
 	)
 	(label "BOOT0"
-		(at 59.69 165.1 270)
+		(at 35.56 161.29 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6706,7 +6751,7 @@
 		(uuid "e3dcc7eb-2b4f-4cd4-a44d-840b6747c41c")
 	)
 	(label "RST_N"
-		(at 40.64 165.1 270)
+		(at 62.23 161.29 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8528,6 +8573,79 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Push_1")
+		(lib_id "Switch:SW_Push")
+		(at 50.8 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ba55301-b619-4771-ad03-5678376cb09d")
+		(property "Reference" "SW2"
+			(at 48.768 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TS24CA"
+			(at 48.768 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:TS24CA"
+			(at 45.72 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 50.8 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "033a656e-8f1e-438e-98f8-105d0ebd13d3")
+		)
+		(pin "2"
+			(uuid "1b1eb3a8-4b77-4be7-9000-1b4926525db3")
+		)
+		(pin "0"
+			(uuid "919b4f6c-e5f2-4b6b-8826-0e5e86954977")
+		)
+		(instances
+			(project "ui_to_usb"
+				(path "/61164785-2abe-4800-8948-e7ba22968736"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x12_Pin")
 		(at 241.3 134.62 0)
 		(unit 1)
@@ -8638,7 +8756,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 181.61 0)
+		(at 50.8 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8646,7 +8764,7 @@
 		(dnp no)
 		(uuid "5415c14f-b5cf-43e3-8a19-3407c37045a9")
 		(property "Reference" "#PWR037"
-			(at 29.21 187.96 0)
+			(at 50.8 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8655,7 +8773,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 28.956 186.182 0)
+			(at 50.546 182.372 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8663,7 +8781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 181.61 0)
+			(at 50.8 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8672,7 +8790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 181.61 0)
+			(at 50.8 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8681,7 +8799,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 181.61 0)
+			(at 50.8 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8769,6 +8887,71 @@
 			(project "ui_to_usb"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59eb8b74-ed81-40c0-880e-69f8be5bf522")
+		(property "Reference" "#PWR042"
+			(at 48.26 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.006 182.372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb9dd46f-6bc5-4c62-8c36-02aaf9be92bd")
+		)
+		(instances
+			(project "ui_to_usb"
+				(path "/61164785-2abe-4800-8948-e7ba22968736"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9260,7 +9443,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 181.61 0)
+		(at 30.48 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9268,7 +9451,7 @@
 		(dnp no)
 		(uuid "65da3346-761a-4fcc-b8fe-024c71f2f821")
 		(property "Reference" "#PWR039"
-			(at 54.61 187.96 0)
+			(at 30.48 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9277,7 +9460,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.356 186.182 0)
+			(at 30.226 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9285,7 +9468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 181.61 0)
+			(at 30.48 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9294,7 +9477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 181.61 0)
+			(at 30.48 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9303,7 +9486,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 181.61 0)
+			(at 30.48 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9324,8 +9507,10 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Push_1")
 		(lib_id "Switch:SW_Push")
-		(at 54.61 168.91 90)
+		(at 30.48 165.1 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9333,7 +9518,7 @@
 		(dnp no)
 		(uuid "670ab4c6-db91-4bda-80ae-14781dc605f5")
 		(property "Reference" "SW1"
-			(at 52.578 167.64 90)
+			(at 28.448 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9341,8 +9526,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BOOT0"
-			(at 52.578 170.18 90)
+		(property "Value" "TS24CA"
+			(at 28.448 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9350,8 +9535,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P-B"
-			(at 49.53 168.91 0)
+		(property "Footprint" "footprints:TS24CA"
+			(at 25.4 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9360,7 +9545,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 168.91 0)
+			(at 25.4 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9369,7 +9554,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 54.61 168.91 0)
+			(at 30.48 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9382,6 +9567,9 @@
 		)
 		(pin "2"
 			(uuid "2dc76392-1d0e-4d6d-ac32-0779cb1af317")
+		)
+		(pin "0"
+			(uuid "e0cef383-70cd-4b82-8aaa-ddf39ef1170a")
 		)
 		(instances
 			(project "ui_to_usb"
@@ -10657,7 +10845,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 29.21 163.83 0)
+		(at 50.8 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10665,7 +10853,7 @@
 		(dnp no)
 		(uuid "ac6ab182-feaf-4fe1-99f3-45f3f85bdea3")
 		(property "Reference" "#PWR035"
-			(at 29.21 167.64 0)
+			(at 50.8 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10674,7 +10862,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 29.21 158.75 0)
+			(at 50.8 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10682,7 +10870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 163.83 0)
+			(at 50.8 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10691,7 +10879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 163.83 0)
+			(at 50.8 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10700,7 +10888,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 163.83 0)
+			(at 50.8 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11008,75 +11196,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 29.21 176.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b39bebb2-1dd8-419b-a84b-135e2eded173")
-		(property "Reference" "SW2"
-			(at 27.178 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RST"
-			(at 27.178 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P-B"
-			(at 24.13 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 29.21 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87fca7d2-a58c-4bf8-837e-127a9661bb17")
-		)
-		(pin "2"
-			(uuid "c169aed1-aa2c-45bb-864a-e2d8b270a8bf")
-		)
-		(instances
-			(project ""
-				(path "/61164785-2abe-4800-8948-e7ba22968736"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 86.36 41.91 0)
 		(unit 1)
@@ -11359,7 +11478,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 54.61 163.83 0)
+		(at 30.48 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11367,7 +11486,7 @@
 		(dnp no)
 		(uuid "b87b61b8-32ff-4012-b0e8-8e335a85a3ae")
 		(property "Reference" "#PWR036"
-			(at 54.61 167.64 0)
+			(at 30.48 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11376,7 +11495,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 54.61 158.75 0)
+			(at 30.48 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11384,7 +11503,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 163.83 0)
+			(at 30.48 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11393,7 +11512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 163.83 0)
+			(at 30.48 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11402,7 +11521,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 163.83 0)
+			(at 30.48 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11569,6 +11688,71 @@
 			(project "ui_to_usb"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd55ade0-9d7a-42ba-b18d-08285c5b046c")
+		(property "Reference" "#PWR041"
+			(at 21.59 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.352 159.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ab5e884-ae64-401a-b0df-86b4c7303cb5")
+		)
+		(instances
+			(project "ui_to_usb"
+				(path "/61164785-2abe-4800-8948-e7ba22968736"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -11808,7 +11992,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 29.21 167.64 180)
+		(at 50.8 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11816,7 +12000,7 @@
 		(dnp no)
 		(uuid "c9eb81f7-dcf3-4ff9-bf7e-f40bb8810e3e")
 		(property "Reference" "R7"
-			(at 32.258 167.64 90)
+			(at 53.848 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11824,7 +12008,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 29.21 167.64 90)
+			(at 50.8 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11832,7 +12016,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 30.988 167.64 90)
+			(at 52.578 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11841,7 +12025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 167.64 0)
+			(at 50.8 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11850,7 +12034,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 29.21 167.64 0)
+			(at 50.8 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11859,7 +12043,7 @@
 			)
 		)
 		(property "JLCPN|" ""
-			(at 29.21 167.64 0)
+			(at 50.8 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11868,7 +12052,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 29.21 167.64 90)
+			(at 50.8 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11893,7 +12077,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 177.8 180)
+		(at 30.48 173.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11901,7 +12085,7 @@
 		(dnp no)
 		(uuid "c9fa6325-c004-47f8-8d67-f54f5533ebae")
 		(property "Reference" "R8"
-			(at 57.658 177.8 90)
+			(at 33.528 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11909,7 +12093,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 54.61 177.8 90)
+			(at 30.48 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11917,7 +12101,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 56.388 177.8 90)
+			(at 32.258 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11926,7 +12110,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 177.8 0)
+			(at 30.48 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11935,7 +12119,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 177.8 0)
+			(at 30.48 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11944,7 +12128,7 @@
 			)
 		)
 		(property "JLCPN|" ""
-			(at 54.61 177.8 0)
+			(at 30.48 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11953,7 +12137,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 54.61 177.8 90)
+			(at 30.48 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11978,7 +12162,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 181.61 0)
+		(at 62.23 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11986,7 +12170,7 @@
 		(dnp no)
 		(uuid "caa6d87c-c928-4b9a-b54d-092618dea46c")
 		(property "Reference" "#PWR038"
-			(at 40.64 187.96 0)
+			(at 62.23 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11995,7 +12179,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.386 186.182 0)
+			(at 61.976 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12003,7 +12187,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 181.61 0)
+			(at 62.23 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12012,7 +12196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 181.61 0)
+			(at 62.23 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12021,7 +12205,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 181.61 0)
+			(at 62.23 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12043,7 +12227,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 40.64 177.8 180)
+		(at 62.23 173.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12051,7 +12235,7 @@
 		(dnp no)
 		(uuid "cbb9a74b-3c0a-4ae7-8dc6-06cd552aeaf7")
 		(property "Reference" "C10"
-			(at 40.132 175.514 0)
+			(at 61.722 171.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12060,7 +12244,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 40.132 180.34 0)
+			(at 61.722 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12069,7 +12253,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 39.6748 173.99 0)
+			(at 61.2648 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12078,7 +12262,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 177.8 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12087,7 +12271,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 40.64 177.8 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12096,7 +12280,7 @@
 			)
 		)
 		(property "JLCPN|" ""
-			(at 40.64 177.8 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12105,7 +12289,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 40.64 177.8 0)
+			(at 62.23 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
