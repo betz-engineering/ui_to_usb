@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ui_to_usb")
-		(date "2025-12-28")
-		(rev "-")
+		(date "2026-02-12")
+		(rev "1")
 		(company "Betz Engineering")
 		(comment 1 "USB adapter for ui_board_1u")
 	)
@@ -602,6 +602,113 @@
 						)
 					)
 					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4989,14 +5096,6 @@
 		(uuid "fdf3180e-a935-4da2-8357-a9491d4cb0b6")
 	)
 	(no_connect
-		(at 115.57 123.19)
-		(uuid "23b0def0-b910-4a92-9db3-1a5496dc9c6d")
-	)
-	(no_connect
-		(at 115.57 125.73)
-		(uuid "41953694-a079-44a3-be88-9644ac8095a6")
-	)
-	(no_connect
 		(at 55.88 69.85)
 		(uuid "450394ec-233f-4c7c-b156-bc87f3144ac6")
 	)
@@ -5416,6 +5515,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 125.73) (xy 115.57 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74fcb5c0-ec88-4998-bef2-3b2dcd484cfe")
+	)
+	(wire
+		(pts
 			(xy 106.68 135.89) (xy 115.57 135.89)
 		)
 		(stroke
@@ -5663,6 +5772,16 @@
 			(type default)
 		)
 		(uuid "b5ff3f22-99b9-44f9-837f-6c7a853b4c20")
+	)
+	(wire
+		(pts
+			(xy 114.3 123.19) (xy 115.57 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b81b4776-d90a-4f9c-afc4-b085504f4dd4")
 	)
 	(wire
 		(pts
@@ -8426,6 +8545,73 @@
 			(project "ui_to_usb"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 114.3 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cc372a8-cc00-4878-a774-06a2d03b2dfe")
+		(property "Reference" "TP1"
+			(at 113.03 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "U_TX"
+			(at 119.888 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7320a697-f05c-452f-9120-cec5e0a1076b")
+		)
+		(instances
+			(project ""
+				(path "/61164785-2abe-4800-8948-e7ba22968736"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -12524,6 +12710,73 @@
 			(project "ui_to_usb"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 114.3 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d60852b9-d3ce-4aaa-b52a-f9f12617b3c4")
+		(property "Reference" "TP2"
+			(at 113.03 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "U_RX"
+			(at 119.888 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46c48bbd-5979-484d-b33f-3d6011304717")
+		)
+		(instances
+			(project "ui_to_usb"
+				(path "/61164785-2abe-4800-8948-e7ba22968736"
+					(reference "TP2")
 					(unit 1)
 				)
 			)

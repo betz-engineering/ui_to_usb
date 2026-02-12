@@ -4,6 +4,6 @@ Based on a FT232 chip to handle the SPI interface.
 
 [Schematic](pics/ui_to_usb.pdf)
 
-![Bottom side](pics/bottom.jpg)
+![Bottom side](pics/top.jpg)
 
 ![Installed on ui_board_1u](pics/installed.jpg)
