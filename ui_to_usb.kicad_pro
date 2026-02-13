@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -157,7 +157,7 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.2,
-        "min_connection": 0.25,
+        "min_connection": 0.2,
         "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -544,7 +544,7 @@
       "plot": "pics",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "ui_to_usb.step",
+      "step": "ui_to_usb_rev1.step",
       "svg": "",
       "vrml": ""
     },

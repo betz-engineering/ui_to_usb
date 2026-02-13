@@ -8568,7 +8568,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "U_TX"
+		(property "Value" "A9"
 			(at 119.888 125.476 0)
 			(effects
 				(font
@@ -9310,6 +9310,72 @@
 			(project ""
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5da8db7f-6110-4259-badd-25948efa7042")
+		(property "Reference" "#PWR043"
+			(at 114.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 117.602 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10341ecf-81eb-45c9-b3c0-310aa2079e50")
+		)
+		(instances
+			(project "ui_to_usb"
+				(path "/61164785-2abe-4800-8948-e7ba22968736"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10960,6 +11026,73 @@
 			(project "ui_to_usb"
 				(path "/61164785-2abe-4800-8948-e7ba22968736"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 114.3 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a36c8ede-2f07-492c-806e-e3a5ba98205d")
+		(property "Reference" "TP3"
+			(at 113.03 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.888 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 119.38 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f33b4b19-d09c-4cf0-b2f7-8cce5b372514")
+		)
+		(instances
+			(project "ui_to_usb"
+				(path "/61164785-2abe-4800-8948-e7ba22968736"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -12733,7 +12866,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "U_RX"
+		(property "Value" "A10"
 			(at 119.888 128.016 0)
 			(effects
 				(font
