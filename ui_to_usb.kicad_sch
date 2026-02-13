@@ -4910,6 +4910,16 @@
 		)
 		(uuid "5c691f70-5411-45d4-8c7d-91a1ec83f2d9")
 	)
+	(text "3.293 V"
+		(exclude_from_sim no)
+		(at 224.79 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6929664f-30bb-48ff-8acd-c7bd0b713f7f")
+	)
 	(text "Extension Port"
 		(exclude_from_sim no)
 		(at 234.95 135.89 90)
@@ -7870,7 +7880,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "18k"
 			(at 227.33 45.72 90)
 			(effects
 				(font
@@ -8699,7 +8709,7 @@
 				)
 			)
 		)
-		(property "Value" "37k4"
+		(property "Value" "30k"
 			(at 227.33 38.1 90)
 			(effects
 				(font
